@@ -1,10 +1,12 @@
 # Image Processing Fundamentals with OpenCV
 
-A Google Colab project demonstrating a basic image-processing workflow with OpenCV and Matplotlib. It displays an uploaded source image, converts it to grayscale, applies Gaussian blur, detects edges with Canny, and compares all four stages in a single figure. The notebook’s executed cells preserve the visual outputs.
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gizemnurbektas/image-processing-fundamentals-with-opencv/blob/main/Image_Processing_Fundamentals_with_OpenCV.ipynb)
 
-## Notebook
+A Google Colab project demonstrating a basic image-processing workflow with OpenCV and Matplotlib. It displays an uploaded source image, converts it to grayscale, applies Gaussian blur, detects edges with Canny, and compares the stages in one figure.
 
-Open [`Image_Processing_Fundamentals_with_OpenCV.ipynb`](Image_Processing_Fundamentals_with_OpenCV.ipynb) in Google Colab or Jupyter. In Colab, run the upload cell and choose the image you want to process.
+## Notebook and results
+
+Open [`Image_Processing_Fundamentals_with_OpenCV.ipynb`](Image_Processing_Fundamentals_with_OpenCV.ipynb) in Google Colab. The original image and processed visual results are preserved in the notebook’s saved cell outputs. Run the upload cell to use the image again in a new runtime.
 
 ## Processing steps
 
@@ -28,10 +30,6 @@ Install the dependencies locally with:
 pip install -r requirements.txt
 ```
 
-## Run in Google Colab
-
-Open the notebook and run the cells in order. When prompted, upload a JPEG or PNG. The final cell displays the four-stage comparison. The current notebook uses the image supplied to its Colab upload cell; the source image can be added as `images/sample.jpg` when packaging the assets separately.
-
 ## Project structure
 
 ```text
@@ -42,3 +40,5 @@ image-processing-fundamentals-with-opencv/
 ├── .gitignore
 └── README.md
 ```
+
+The image and generated comparisons are stored as notebook outputs rather than separate image files.
